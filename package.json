@@ -1,0 +1,23 @@
+{
+    "name": "2fa-app-authy",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "nodemon --exec babel-node index.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@babel/core": "^7.15.0",
+        "@babel/node": "^7.14.9",
+        "@babel/preset-env": "^7.15.0"
+    },
+    "dependencies": {
+        "nodemon": "^2.0.12",
+        "authy": "^1.1.2",
+        "express": "~4.0.0",
+        "body-parser": "~1.0.1"
+    }
+}
